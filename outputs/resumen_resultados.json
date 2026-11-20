@@ -1,0 +1,66 @@
+{
+  "config_elegida": "uni+bigramas, max_features=10000",
+  "max_features": 10000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "vocab_size": 10000,
+  "accuracy_test": 0.8975,
+  "f1_macro_test": 0.8975,
+  "f1_weighted_test": 0.8975,
+  "por_clase": {
+    "Business": {
+      "precision": 0.8546,
+      "recall": 0.87,
+      "f1": 0.8622
+    },
+    "Sci_Tech": {
+      "precision": 0.8725,
+      "recall": 0.876,
+      "f1": 0.8743
+    },
+    "Sports": {
+      "precision": 0.9506,
+      "recall": 0.962,
+      "f1": 0.9563
+    },
+    "World": {
+      "precision": 0.913,
+      "recall": 0.882,
+      "f1": 0.8973
+    }
+  },
+  "matriz_confusion": [
+    [
+      435,
+      39,
+      6,
+      20
+    ],
+    [
+      42,
+      438,
+      6,
+      14
+    ],
+    [
+      6,
+      5,
+      481,
+      8
+    ],
+    [
+      26,
+      20,
+      13,
+      441
+    ]
+  ],
+  "labels_orden": [
+    "Business",
+    "Sci_Tech",
+    "Sports",
+    "World"
+  ]
+}
